@@ -709,10 +709,10 @@
                             Tambah Ulasan Kamu
                         </h4>
 
-                        <form action="{{ route('testimoni.store') }}" method="POST">
+                        <form action="{{ route('testimoni.store') }}" method="POST" class="text-start">
                             @csrf
 
-                            < class="mb-3">
+                            <div class="mb-3">
                             <label class="form-label form-label-custom">Rating Ulasan</label>
                             <div class="star-rating">
                                 <input type="radio" id="star5" name="rating" value="5" required />
